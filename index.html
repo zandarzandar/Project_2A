@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To Do List</title>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+</head>
+<body>
+
+<div id="dialog" title="Error" style="display:none;">
+  <p>You can not enter an empty string!</p>
+</div>
+
+
+    </label><input id="text-field" type="text" />
+    <button id="add button" onclick="addItem()">Add Item</button>
+    <button id="remove button" onclick="removeItem()">Remove Item</button>
+
+    <ul id="todo-list">
+    </ul>
+
+    <ul id="done-list">
+    </ul>
+
+    <script src="main.js"></script>
+</body>
+</html>
